@@ -1,0 +1,8 @@
+git init --initial-branch=main
+git config user.name "Ana Flavia Regis"
+git config user.email "aflaviarm@gmail.com"
+git status
+git add .
+git commit -m "First commit"
+git remote add origin-github https://github.com/aflaviarm/curso-git-embarcatech.git
+git push -u origin-github main
